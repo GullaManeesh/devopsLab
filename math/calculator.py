@@ -1,4 +1,9 @@
 def add(a,b):
 	return a+b
 
-print(add(2,5))
+def subtract(a, b):
+    return a - b
+
+print("Addition:", add(10, 20))
+print("Subtraction:", subtract(20, 10))
+
